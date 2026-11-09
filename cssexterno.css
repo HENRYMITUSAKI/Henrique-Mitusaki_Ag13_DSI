@@ -1,0 +1,96 @@
+/*Configura as três seções*/
+
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+/*Conteiner + Classes de cadas Seção*/
+
+.secao {
+    flex: 1;
+    padding: 20px;
+    border: 2px rgb(2, 2, 2);
+    border-radius: 25px;
+    background-color: #9e3131;
+}
+
+.secao h2{
+    color: whitesmoke;
+    text-align: center;
+}
+
+#filmes{
+    background-color: rgb(32, 60, 188);
+}
+#musicas{
+    background-color: rgb(62, 190, 112);
+}
+#livros{
+    background-color: rgb(145, 14, 14);    
+}
+
+.secao img{
+    display: block;
+    flex-direction: row;  
+    gap: 200px;
+    width: 35%;
+    height: 150px;
+    object-fit: cover;
+    margin: auto;
+
+}
+
+/*Configura o Cabeçalho*/
+header h1{
+    margin-bottom: 30px;
+    text-align: center;
+    color: #222222;
+    font-size: 32px;
+}
+
+/*Personaliza os cartões*/
+
+.cartao{
+    background-color: white;
+    border: 1px solid #dddddd;
+    border-radius: 12px;
+    padding: 15px;
+    width:200px;
+}
+
+.cartao img{
+    width: 70%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.cartao p{
+    font-size: 13px;
+    color: #777777;
+}
+.cartao h3 {
+    font-size: 16px;
+    color: #222222;
+    margin-top: 10px;
+}
+.botao-play {
+    display: inline-block;
+    background-color: #222222;
+    color: white;
+    padding: 3px;
+    border-radius: 50%;
+}
+.cartao a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+.lista{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
